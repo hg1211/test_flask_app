@@ -27,6 +27,6 @@ def hello():
         print("DB: ",os.getenv('DATABASE'))
         print("username: ",os.getenv('USER'))
         print("password: ",os.getenv('DATABASE_PASSWORD'))
-        print("Error while connecting to MySQL", e)
+        print("Error while connecting to MySQL!!!", e)
         
     return '<h1>Hello, World!</h1>'
